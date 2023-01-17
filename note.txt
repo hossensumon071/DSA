@@ -158,3 +158,25 @@ Algorithms
      --> ekhane time compelxity hobe 
             o(log n) logarithmic time compelxity
             and aitar performance onk valo linear er theke 
+
+
+8) Recusrsive case 
+        --> kno ekta function ke jodi oi function er bitor abr call kora hoi tahole oi function ke bola hoi recursive function 
+
+    1) recursive fibonacchi
+       - find the nth element from fibonacci series
+            f(n) = f(n-1) + f(n-2)
+            n <= 0 --> 0
+            n === 1 --> 1
+
+        function fibonacchi(n) {
+          if(n <= 0) return 0;
+          if(n === 1) return 1;
+
+          return fibonacchi(n - 1) + fibonacchi (n - 2);
+        }
+
+        console.log(fibonacchi(5));
+
+        --> aitar time compelxity hobe o(2^n) ja baje ekta time compelxity. tai Recusrsive way ta kintu shob programme er jonno suitable na . recursive way to fibonacchi kora ta tik na 
+        --> o(c^n) --> exponentital time 
