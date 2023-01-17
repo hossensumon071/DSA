@@ -180,3 +180,21 @@ Algorithms
 
         --> aitar time compelxity hobe o(2^n) ja baje ekta time compelxity. tai Recusrsive way ta kintu shob programme er jonno suitable na . recursive way to fibonacchi kora ta tik na 
         --> o(c^n) --> exponentital time 
+
+
+    2) recursive factorial
+         
+         3! = 3 * 2 * 1
+         3! = 3 * 2!
+         n! = n * (n - 1)
+         n === 0 --> 1
+
+         function fact (n) {
+          if(n ===0 ) return 1;
+
+          return n * fact(n - 1);
+         }
+
+         console.log(fact(5));
+
+         --> o(n)
