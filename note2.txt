@@ -1,0 +1,46 @@
+Types of Data Structure 
+         - types of data structure 
+            1) Array
+            2) Link List
+            3) Stack
+            4) Queue
+            5) Hash Map
+            6) Tree
+
+            - Algorithms
+               1) Searching and Sorting
+               2) Two Pointing Algorithms
+               3) Kadanes Algorithms
+               4) Array pre-processing
+               5) Recursive Algorithms
+               6) Greedy Algorithms
+               7) Dynamic programming
+               8) Graph Algorithms
+  - Data structure 2 types er hoye thake Linear and non-Linear
+
+      1) Linear
+         - Linear data Structure er porttekta datar ekta predisor and successor thake predisor mane age and successor mane hocche pore kintu Linear data structure e ekta exception deka jai sei to holo first data and last data te - first data kono predisor thake na r lasta data te kono successor thake na 
+               1) Array 
+               2) Link List
+               3) Stack And Qeue
+      2) Non-Linear 
+            - Tree 
+            - Graph
+
+Time Complexity
+   - ekta programme ke run hote je poriman time lage sei ta ke bola hoi time Complexity and aita input er size er upor base kore time Complexity calculate kora hoi 
+    
+       -prottekta single operation 1 unite of time nibe r eita ke represent kora hoi O(1) diye big O (1) bole
+       - kono ekta spacific ba ekta operation hote O(1) time lage 
+
+                let a = 10; b = 20;
+                let c = a + b;
+                console.log(c);
+
+                Assignment: 3 units O(3)
+                Artihmetic: 1 unit O(1)
+
+                O(3) + O(1) = O(4) = O(1)
+                --> in computer science O(4) ke bola hoi O(1)
+                --> Time Complexity up down kore input er size er upor 
+                --> jokon 
