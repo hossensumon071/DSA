@@ -39,47 +39,6 @@ Algorithms
                            - factorial onk baje ekta time compelxity
 
 
-
-  13) Incertion Short
-         
-         function insertionsSort(arr) {
-            for(lt i = 1; i < arr.length; i++) {
-              let currentEl = arr[i]
-
-              // swap 
-              let j = i -1
-              for(; j>= 0 && arr[j] > currentEl; j--){
-                arr[j+1] = arr[j]
-              }
-
-              arr[j + 1] = currentEl;
-            }
-
-            return arr;
-         }
-         cosole.log([3,4,0,5-1,2,6])
-
-         function insertionsSort(arr) {
-            for (let i = 1; i < arr.length; i++){
-              const currentEl = arr[i]
-
-              let j = i - 1
-
-              while(j>=0 && arr[j] > current) {
-                arr[j+1] = arr[j];
-                j--;
-              }
-              arr[j+1] = current;
-            }
-
-            return arr;
-         }
-         cosole.log([3,4,0,5-1,2,6])
-
-// o(n^2)
-
-
-
 14) Quick-short 
 
       function quickSort (arr) {
