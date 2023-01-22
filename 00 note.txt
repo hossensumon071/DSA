@@ -13,65 +13,32 @@ Algorithms
        - space complexity is a way to analyze the total space or memory need for an algorithm
   
     asymptotic notation
+       - je mathmatical notation er shahajje time and space express kora hoi take asymptotic notaition bola hoye thake   
          - describe the time complexity or space complexity 
          - asymptotic notation shahajje time and space compelxity ke bhujano hoi 
          - asymptotic notation 3 prokar 
-         - big o notation, big omega notation and big theta notation 
+         - big O notation, big omega notation and big theta notation 
   
-            big o notation
-              - [big o notaition] er shahajje amra time and space complexity measure korbo ekta algorithom er jonno 
+            big O notation
+              - [big O notaition] er shahajje amra time and space complexity measure korbo ekta algorithom er jonno 
 
-                0(1) --> constant/base time or space complexity
+                O(1) --> constant/base time or space complexity
                          - apnar jokon ekta program ba algorithm thakbe sei programm input jai e nik na kno output ta delivery korar time e 1 fraction of time lagbe ba 1 fraction of space lagbe 
-                0(log n) --> logarithmic
+                O(log n) --> logarithmic
                              - apnar je programm thakbe prottekbar sei programm ke input dile se sei ta ke ordek kore felbe input size ta ordek size kore felbe 
-                0(n) --> linear
+                O(n) --> linear
                           - ekhane input size barle time barbe input size komle time kombe 
 
-                uporer ei 3 ta hocche shob thekey best 
+                uporer ei 3 ta hocche shob thekey best . 3 tar bitor shob theke best hocche O(1)
 
                 0(n log n) ---> linear logarithmic
                 0(n^c) --> polynomorial time / c = power 
                 0(c^n) --> exponentital time 
+                            - ekbar system run koraben shokol input diye oi input diye just system take double kore dibe 
                 0(n!)  --> factorial 
-          
+                           - factorial onk baje ekta time compelxity
 
-1) Given an array, find the largest el
-      
-      function largestEl(arr) {
-        let largeEl = arr[0];
 
-        for(let i = 1; i < arr.length; i++) {
-          if(arr[i] > largeEl) {
-            largeEl = arr[i]
-          }
-        }
-        return largeEl
-      }
-
-      console.log(largestEl([2,34,5,55,6]))
-
-      - aitar time compelxity hobe
-         - el = 5, run = 5,
-           el = 1000, run = 1000,
-           el = n, run = n,
-           0(n) --> linear 
-           - ekhane dekar bishoy hocche elment joto ta run o hocche toto bar so ekhane time compelxity and spce complexity bere jacche 
-      
-
-2) Given an array, find the first element of this arr
-    
-    function findFirstEl(arr) {
-      return arr.at(0)
-    }
-
-    console.log(findFirstEl([10, 20, 30]));
-
-    el = 10, run = 1,
-    el = 1000, run = 1,
-    0(1) --> constant
-
-    - ekhane code run hoiche only 1 bar jodi element 1000 o hoi tarporo element run hobe 1 bar e mane aita element er upore nirbor korche na 
 
 
 3) fibonacchi 

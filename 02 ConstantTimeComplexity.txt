@@ -1,0 +1,14 @@
+
+2) Given an array, find the first element of this arr
+    
+    function findFirstEl(arr) {
+      return arr.at(0) // or arr[0] at() eita modern way
+    }
+
+    console.log(findFirstEl([10, 20, 30]));
+
+    el = 10, run = 1,
+    el = 1000, run = 1,
+    0(1) --> constant
+
+    - ekhane code run hoiche only 1 bar jodi element 1000 o hoi tarporo element run hobe 1 bar e mane aita element er upore nirbor korche na 

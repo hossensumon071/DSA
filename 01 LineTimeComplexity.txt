@@ -1,0 +1,74 @@
+
+1) Given an array, find the largest el
+      
+      function largestEl(arr) {
+        let largeEl = arr[0];
+
+        for(let i = 1; i < arr.length; i++) {
+          if(arr[i] > largeEl) {
+            largeEl = arr[i]
+          }
+        }
+        return largeEl
+      }
+
+      console.log(largestEl([2,34,5,55,6]))
+
+      - aitar time compelxity hobe
+         - el = 5, run = 5,
+           el = 1000, run = 1000,
+           el = n, run = n,
+           0(n) --> linear 
+           - ekhane dekar bishoy hocche elment joto ta run o hocche toto bar so ekhane time compelxity and spce complexity bere jacche 
+      
+    -ekhane ekta array dewa ache and tar bitor shob theke boro element ta ber kore dekhate hobe ekta function er maddome 
+           - ekta function nite hobe ei function ta parameter hisebe ekta array ke nibe 
+                function largestEl(arr) {
+
+                }
+           - ekon function er bitor jeye array er first je element ta ache sei element ta ke e large number hisebe dore nite hobe
+                let largeEl = arr[0];
+
+           - ekon apnr kaj ki oi array tar upor loop korte hobe tar jonno ekti for loop like ney
+                 for( let i = 1; i<= arr.length; i++) {
+
+                 }
+             ekhane for lopp er bitor i man array er index ke bhujacche r i er man o bodle 1 newar karon hocche jehot amra frist e dore e nichi index 0 er man hobe large number tai 1 theke start korchi 
+
+           - ekon for loop er bitor check dite hobe apni jei element ta dorchen sei elemnt ta baki elment gula theke boro naki choto 
+            if(arr[i] > largeEl) {
+              largeEl = arr[i]
+            }
+
+                   function largestEl(arr) {
+                    let largEl = arr[0];
+
+                    for(let i = 0; i <= arr.length; i++) {
+                      if(arr[i] > largeEl) {
+                        largeEl = arr[i]
+                      }
+                    }
+
+                   }
+                  
+            - tarpor largeEl ke return kore dite hobe 
+                   
+                   function largestEl(arr) {
+                    let largEl = arr[0];
+
+                    for(let i = 0; i <= arr.length; i++) {
+                      if(arr[i] > largeEl) {
+                        largeEl = arr[i]
+                      }
+                    }
+                    return largeEl;
+
+                   }
+
+            - ekon ekhane theke amader time compelxity ber korte hobe , time compelxity ber korar sortCut way ta hocche first te e apnake check dite hobe ekhane for loop koita ache 
+            - ekon uporer function e amra ekta for loop use korchi and ei ekta for loop er jonno koto tuko time lagche eita age dekte hobe 
+            - array jei element ta ache shob gula element er jonno for loop ekbar ekbar kore run hoiyeche 
+            - el = 5, run = 5
+              el = 1000, run = 1000
+              el - n, run = n
+              O(n) --> linear time compelxity
