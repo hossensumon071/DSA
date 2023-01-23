@@ -1,0 +1,20 @@
+A,
+B,
+A * B
+A = [1,2]
+B = [X,Y]
+A * B = [[1,x], [1,y], [2,x], [2,y]]
+
+function cartesianProduct(setA, setB) {
+  const result = [];
+
+  for(let i = 0; i < setA.length; i++) {
+    for (let j = 0; j < setB.length; j++) {
+      result.push([setA[i], setB[i]]);
+    }
+  }
+}
+
+console.log(cartesianProduct([1,2], ["x","y"]));
+
+time complexity O(mn)

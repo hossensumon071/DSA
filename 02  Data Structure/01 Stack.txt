@@ -1,0 +1,19 @@
+Stack 
+  - hocche linear Data structure 
+  - linear data structure hocche ekta r ektar shate connected kono shakha proshaka nai era ekta line borabor place thake  
+  - LIFO (last in passed out)
+  - stack array er top element pawar jonno (array.length - 1)
+
+
+const myStack = [];
+
+insert
+   myStack.push(1);
+   myStack.push(2);
+   myStack.push(3);
+   myStack.push(4); // inserted in last 
+
+get
+   console.log(myStack.pop());
+   console.log(myStack);
+   console.log(myStack[myStack.length - 1]); 

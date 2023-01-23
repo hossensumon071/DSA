@@ -1,0 +1,24 @@
+1) dynamic programming
+       - apnar je problem thakbe ei problem gula ke alada alada kore bhag korte hobe tarpor ekta solution dar korate hobe eitai hocche dynamic programming
+            - fibonacci
+2) Greedy algorithm 
+        - ekta problem er multiple solution thakte pare and ekta ekta kore dkete hobe kon solution better and eder moddo theke optimal solution ta khuje ber kora hocche greedy algorithm
+        - mane se ekhane programming er prottekta step se execute korbe and er bitor theke optimal solution khuje ber korbe 
+        - optimal solution for multiple steps
+
+3) Brute force
+        - ei algorithm ta greedy algorithm er shate kachakachi kichu mil ache 
+        - ekhane multiple solution thakbe and jei ta best se oitai nibe 
+        - best solution among all solution
+        - er ekta problem ache best solution khujte giye time complexity bere o jete pare 
+
+4) backTracking
+        - jekhane different kind of input thakbe , kichu kichu input er jonno apnr time complexity kom asteche abr kichu kichu input er jonno time complexity besi lagteche 
+        - different inputs, time complexity varies, jusitfy perfect inputs, different steps, input x steps === comfortable
+
+5) Branch and Bound
+       - mane kache already perfect solution thakbe tarporo apni best solution khujtechen 
+       - all solution --> best solution --> all solution X best solution
+
+6) Divide and conqure 
+       - apnr problem ta ke onk gula sub problem e divide korte hobe first, solve through recusively

@@ -1,0 +1,21 @@
+Greatest common divisor
+
+    - apnake doi ta number dibe and doi ta thke GCD ber korte hobe 
+
+
+
+function gcd(a, b) {
+    if(b === 0) {
+      return a;
+    }
+    return gcd(b, a % b);
+}
+
+console.log(gcd(16, 22))
+
+euqledian formula = fn(b, a % b)
+
+--> time complexity - o(log min(a,b))
+    n --> n --> min(a, b);
+    o(log n) --> O(log min(a,b));
+    onk faster log n theke 
